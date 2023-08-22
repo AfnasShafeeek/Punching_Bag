@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="app.css">   
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+
+</head>
+<body>
+    
+    <div id = "punchingbag">
+
+
+        <div id="bag" v-bind:class = "{ burst :ended }">
+        
+        </div>
+        
+        <div id="health">
+        <div v-bind:style="{width:bag_health + '%'}">
+        
+        </div>
+        </div>
+        
+        <div id="controls">
+        
+        <button v-on:click="punch" v-show ="!ended">
+        punch
+        </button>
+        
+        <button v-on:click="restart">
+        reset
+        </button>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>

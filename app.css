@@ -1,0 +1,27 @@
+#bag {
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+    background: url("https://cdn1.vectorstock.com/i/1000x1000/33/15/boxing-punch-bag-icon-cartoon-style-vector-25913315.jpg") center no-repeat;
+    background-size: 80%;
+
+}
+#bag.burst{
+   background: url("https://www.shutterstock.com/shutterstock/photos/553382362/display_1500/stock-vector-punching-bag-with-gloves-553382362.jpg") center no-repeat;
+    background-size: 80%;
+}
+#controls{
+  width: 120px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+#health {
+  width : 200px;
+  border : solid #000;
+  margin : 0 auto 20px auto;
+}
+#health div {
+  height : 20px;
+  background : red;
+}
+
